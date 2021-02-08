@@ -1,0 +1,74 @@
+*{
+    padding:0;
+	margin:0;
+}
+body{
+	background-image: url('ozadje.jfif');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+
+
+
+
+#Vizitka{
+	width:250px;
+	height:50px;
+	border:10px solid rgb(255, 153, 204);
+	margin:0 auto;
+	margin-top:100px;
+	background-color:rgb(255, 204, 255);
+	text-align:center;
+	
+}
+
+
+
+
+
+.brick{
+	top:-95px;;
+	display:flex;
+	position:relative;
+}
+
+.brick .orodnavrstica{
+	position:fixed;
+	width:200px;
+	height:25%;
+	background:#660033;
+	padding:30px 0;
+	border:2px solid white;
+	border-top:none;
+	border-left:none;
+	
+}
+
+.brick .orodnavrstica h3{
+	color:#ff6600;
+	text-align:center;
+    font-family: Courier New;
+	margin-bottom:30px;
+	
+}
+
+.brick .orodnavrstica ul li{
+	padding:30px;
+    font-family: Courier New;
+	border-bottom: 1px solid white 0.5;
+	border-top:1px pink 0.5;
+}
+
+.brick .orodnavrstica ul li a {
+	color:#ff66cc;
+	display:block;
+}
+.brick .orodnavrstica ul li a fas{
+	width:25px;
+}
+
+.brick .orodnavrstica ul li:hover {
+	background : #ff6600;
+}
